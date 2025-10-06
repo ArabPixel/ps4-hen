@@ -81,8 +81,8 @@ const struct kpayload_offsets offsets_474 PAYLOAD_RDATA = {
   .mountpfs__sceSblPfsSetKeys_hook2                          = 0x0069B214,
 
   // SceShellUI patches - debug patches - libkernel_sys.sprx
-  .sceSblRcMgrIsAllowDebugMenuForSettings_patch              = 0x0001A130,
-  .sceSblRcMgrIsStoreMode_patch                              = 0x0001A430,
+  .sceSblRcMgrIsAllowDebugMenuForSettings_patch              = 0x0001A215,
+  .sceSblRcMgrIsStoreMode_patch                              = 0x0001A57D,
 
   // SceShellUI patches - remote play patches
   .CreateUserForIDU_patch                                    = 0x00197030, // system_ex\app\NPXS20001\eboot.bin
